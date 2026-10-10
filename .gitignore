@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+
+# Private resume documents and supplementary datasets
+data/supplementary-data/
+
+# Large generated datasets and evaluation outputs
+data/main-data/*
+!data/main-data/synthetic-resumes.csv
+
+# Generated FAISS vector stores
+vectorstore/
+vectorstore-pdf/
+vectorstore-synthetic/
+
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
